@@ -9,5 +9,9 @@ describe("Test for StudentService", () => {
         expect(students.length).toBe(51);
         expect(students[0].name).toBe("Warren");
     });
+    test("2. Get list of emails of the students that have certification", () => {
+        const students = StudentService.getStudentsEmailsIfHaveCertification(studentsDB);
+        expect(students.length).toBe(29);
+    });
     
 });
