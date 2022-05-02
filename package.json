@@ -24,7 +24,7 @@
   "homepage": "https://github.com/julietadelgado/code_challenge#readme",
   "devDependencies": {
     "eslint": "^8.14.0",
-    "jest": "^28.0.3"
+    "jest": "^26.0.0"
   },
   "dependencies": {
     "express": "^4.18.1"
