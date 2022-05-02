@@ -13,5 +13,9 @@ describe("Test for StudentService", () => {
         const students = StudentService.getStudentsEmailsIfHaveCertification(studentsDB);
         expect(students.length).toBe(29);
     });
+    test("3. Get list of students with credits greater than 500", () => {
+        const students = StudentService.getStudentsWithCreditsGreaterThan(studentsDB, 500);
+        expect(students.length).toBe(27);
+    });
     
 });
