@@ -16,3 +16,8 @@ app.get("/v1/students/",(request, response) => {
     const students = StudentController.getStudents();
     response.json(students);
 });
+
+app.get("/v1/students/emails/haveCertification",(request, response) => {
+    const students = StudentController.getStudentsEmailsIfHaveCertification();
+    response.json({haveCertification: true, emails: students});
+});
