@@ -11,7 +11,17 @@
     "previousCourses": 1,
     "haveCertification": true
   },
-  
+  {
+    "id": "6264d5d85cf81c496446b67f",
+    "name": "Lucinda",
+    "email": "Sexton@visualpartnership.xyz",
+    "credits": 677,
+    "enrollments": [
+      "Visual Thinking Avanzado"
+    ],
+    "previousCourses": 6,
+    "haveCertification": true
+  },
   {
     "id": "6264d5d8cda17de0d2e9f236",
     "name": "Fuentes",
