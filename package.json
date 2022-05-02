@@ -1,0 +1,23 @@
+{
+  "name": "code_challenge",
+  "version": "1.0.0",
+  "description": "Code Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julietadelgado/code_challenge.git"
+  },
+  "keywords": [
+    "Code",
+    "Challenge"
+  ],
+  "author": "Julieta Delgado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julietadelgado/code_challenge/issues"
+  },
+  "homepage": "https://github.com/julietadelgado/code_challenge#readme"
+}
