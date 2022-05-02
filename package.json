@@ -4,7 +4,7 @@
   "description": "Code Challenge",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/jest/bin/jest.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/julietadelgado/code_challenge#readme",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^28.0.3"
   }
 }
