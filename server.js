@@ -21,3 +21,10 @@ app.get("/v1/students/emails/haveCertification",(request, response) => {
     const students = StudentController.getStudentsEmailsIfHaveCertification();
     response.json({haveCertification: true, emails: students});
 });
+
+
+app.get("/v1/students/creditsGreaterThan/:credits",(request, response) => {
+    const credits = request.params.credits;
+    const students = StudentController.getStudentsWithCreditsGreaterThan(credits);
+    response.json({credits: request.params.credits, students: students});
+});
