@@ -5,7 +5,7 @@ The requirements of this code challenge are the next ones:
 2. Enable an endpoint to get the emails of all students who `haveCertification` is `true`.
 3. Enable an endpoint to consult all students who have credits greater than 500.
 
-The flow of this requirements are as follows:
+The flow of the requirements is as follows:
 
 ```mermaid
 graph TD;
