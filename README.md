@@ -51,9 +51,13 @@ module.exports = {
 About this rules:
 
 `indent: ["error", 4],` -> indentation of 4 spaces
+
 `"linebreak-style": ["error", "unix"],` -> linebreak "\n" (for LF)
+
 `quotes: ["error", "double"],` -> double quotes
+
 `semi: ["error", "always"]` -> semicolons at the end of each statement
+
 
 4. Create a .gitignore file and add this (so git does not version them):
 node_modules
