@@ -64,8 +64,9 @@ node_modules
 package-lock.json
 
 5. Create a file test.yml in .github\workflows, and add the next code:
-name: Run Tests in my project every push on GitHub
 ```
+name: Run Tests in my project every push on GitHub
+
 on: [push]
 
 jobs:
